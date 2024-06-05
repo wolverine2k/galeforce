@@ -3,7 +3,7 @@
 pushd $(dirname "$0")
 source ./common.sh
 
-BUSYBOX_URL="https://busybox.net/downloads/binaries/1.28.1-defconfig-multiarch/busybox-armv8l"
+BUSYBOX_URL="https://busybox.net/downloads/binaries/1.31.0-defconfig-multiarch-musl/busybox-armv5l"
 DROPBEAR_URL="http://archive.raspbian.org/raspbian/pool/main/d/dropbear/dropbear-bin_2024.85-1_armhf.deb"
 
 function downloadBusybox() {
